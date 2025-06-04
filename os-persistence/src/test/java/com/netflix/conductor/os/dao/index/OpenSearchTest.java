@@ -48,7 +48,7 @@ public abstract class OpenSearchTest {
     protected static OpensearchContainer<?> container =
             new OpensearchContainer<>(
                     DockerImageName.parse(
-                            "opensearchproject/opensearch:2.18.0")); // this should match the client
+                            "opensearchproject/opensearch:2.19.2")); // this should match the client
     // version
 
     @Autowired protected ObjectMapper objectMapper;

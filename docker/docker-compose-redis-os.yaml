@@ -48,7 +48,7 @@ services:
       test: [ "CMD", "redis-cli","ping" ]
 
   conductor-opensearch:
-    image: opensearchproject/opensearch:2.18.0
+    image: opensearchproject/opensearch:2.19.2
     environment:
       - plugins.security.disabled=true
       - cluster.name=opensearch-cluster # Name the cluster
